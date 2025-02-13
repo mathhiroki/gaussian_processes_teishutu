@@ -20,7 +20,7 @@ conda env create -f environment.yml
 　
 ```bash
 conda activate my_gaussian_env
-
+```
 
 # If FFmpeg does not work as expected, install it manually:
 　
