@@ -42,15 +42,15 @@ choco install ffmpeg
  - KernelFactory: A factory to generate different kernel types (this code has only RBF).
    
 ###2 GP class
- -GP: A Gaussian Process regressor that models a function using a kernel. It updates with new data and makes predictions with associated uncertainty (mean and variance).
+ - GP: A Gaussian Process regressor that models a function using a kernel. It updates with new data and makes predictions with associated uncertainty (mean and variance).
 
 ###3 Data Generator Class
- -BaseDataGenerator: A base class for generating data.
- -BasicGenerator: Generates random data points using a sine function (y = 2 * sin(x)) with added noise.
+ - BaseDataGenerator: A base class for generating data.
+ - BasicGenerator: Generates random data points using a sine function (y = 2 * sin(x)) with added noise.
  
 ###4 Plotting and Animation
- -plotdata: Computes the GP's predicted mean and variance for given inputs.
- -create_movie: Creates and saves an animation showing the GP learning process over time.
+ - plotdata: Computes the GP's predicted mean and variance for given inputs.
+ - create_movie: Creates and saves an animation showing the GP learning process over time.
 
 ###5 Main Function
- -main: Coordinates the process of generating data, training the GP model, and visualizing the results as an animated movie.
+ - main: Coordinates the process of generating data, training the GP model, and visualizing the results as an animated movie.
