@@ -14,7 +14,7 @@ You can create the environment using the provided `environment.yml` file:
 　
 ```bash
 conda env create -f environment.yml
-
+```
 
 #　After installation, activate the environment:
 　
