@@ -70,3 +70,8 @@ choco install ffmpeg
    After adjusting the variables and the output path, simply run the `main()` function.
 
 The animation will be saved as an MP4 file in the specified location.
+
+## Result
+The animation video is available in the repository. You can download or view it by clicking the link below:
+
+[Download the animation](./assets/movie.mp4)
