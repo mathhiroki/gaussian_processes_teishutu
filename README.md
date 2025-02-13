@@ -15,16 +15,19 @@ You can create the environment using the provided `environment.yml` file:
 ```bash
 conda env create -f environment.yml
 ---
-<br>　
+
+
 After installation, activate the environment:
 　
 ```bash
 conda activate my_gaussian_env
 ---
-<br>　
+
+
 If FFmpeg does not work as expected, install it manually:
 　
 ```bash
 choco install ffmpeg
 ---
-<br>　
+
+
