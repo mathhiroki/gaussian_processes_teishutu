@@ -11,10 +11,16 @@ Ensure you have **Miniconda** or **Anaconda** installed. If not, download and in
 
 ### 2️ Create a Virtual Environment
 You can create the environment using the provided `environment.yml` file:
-　
+dependencies
+  - python=3.11.5
+  - numpy
+  - matplotlib
+  - ffmpeg
+    
 ```bash
 conda env create -f environment.yml
 ```
+inst
 
 #　After installation, activate the environment:
 　
@@ -22,10 +28,11 @@ conda env create -f environment.yml
 conda activate my_gaussian_env
 ```
 
-# If FFmpeg does not work as expected, install it manually:
+If FFmpeg does not work as expected, install it manually:
 　
 ```bash
 choco install ffmpeg
 ---
 
+## Code Structure Overview
 
