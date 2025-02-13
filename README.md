@@ -56,3 +56,17 @@ choco install ffmpeg
 
 ###5 Main Function
  - main: Coordinates the process of generating data, training the GP model, and visualizing the results as an animated movie.
+
+## Usage
+1. **Adjust Variables**:  
+   Modify the variables in the `main()` function according to your preferences:
+   - `data_params`: Set the range and noise level for the data generation.
+   - `kernelparams`: Adjust kernel parameters (e.g., `sigma` for RBF kernel).
+   
+2. **Set Output Path**:  
+   In the `create_movie()` function, update the `ani.save(r"path_save_MP4", writer="ffmpeg")` line to specify the desired path where the movie (MP4 file) will be saved.
+
+3. **Run the Code**:  
+   After adjusting the variables and the output path, simply run the `main()` function.
+
+The animation will be saved as an MP4 file in the specified location.
