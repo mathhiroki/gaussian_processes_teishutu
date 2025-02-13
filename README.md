@@ -38,7 +38,7 @@ choco install ffmpeg
 ###1. Kernel class
  - BaseKernels: A base class for defining kernels with initialization and computation methods.
  - RBF: Implements the Radial Basis Function (RBF) kernel, which measures similarity between two points based on their distance.
-   $ K(X, Y) = \frac{1}{\sqrt{2 \pi} \sigma^d} \exp \left( -\frac{||X - Y||^2}{2 \sigma^2} \right) $
+   `$ K(X, Y) = \frac{1}{\sqrt{2 \pi} \sigma^d} \exp \left( -\frac{||X - Y||^2}{2 \sigma^2} \right) $`
    
  - KernelFactory: A factory to generate different kernel types (this code has only RBF).
    
